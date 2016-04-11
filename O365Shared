@@ -1,8 +1,4 @@
-<Property Name="SharedComputerLicensing" Value="1" />
-
-
-
-Example Configuration.xml
+' Example Configuration.xml
 
 <Configuration>
 <Add SourcePath="C:\source\Office365ProPlusDeployment" OfficeClientEdition="32" >
