@@ -1,0 +1,18 @@
+<Property Name="SharedComputerLicensing" Value="1" />
+
+
+
+Example Configuration.xml
+
+<Configuration>
+<Add SourcePath="C:\source\Office365ProPlusDeployment" OfficeClientEdition="32" >
+   <Product ID="O365ProPlusRetail" >
+     <Language ID="en-us" />
+     <ExcludeApp ID="SharePointDesigner" />
+   </Product>
+</Add>
+<Updates Enabled="TRUE" UpdatePath="" />
+<Display Level="None" AcceptEULA="TRUE" />  
+<Property Name="SharedComputerLicensing" Value="1" />
+<Logging Level="Standard" Path="%temp%" /> 
+</Configuration>
