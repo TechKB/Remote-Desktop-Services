@@ -1,5 +1,9 @@
-' Example Configuration.xml
-
+' // ============== 
+' // Example Configuration.xml
+' // 
+' // Install Office 365 with Shared Computer Licensing enabled
+' // ============== 
+  
 <Configuration>
 <Add SourcePath="C:\source\Office365ProPlusDeployment" OfficeClientEdition="32" >
    <Product ID="O365ProPlusRetail" >
